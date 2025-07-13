@@ -69,3 +69,28 @@
     opacity: 80%;
     position: relative;
 }
+
+
+@media (max-width: 768px) {
+  .box-product {
+    width: 120px; /* giảm kích thước box */
+  }
+
+  .box-product img {
+    height: 120px; /* giảm chiều cao icon */
+    border-radius: 60px; /* vẫn bo tròn */
+  }
+
+  .box-product .title-product {
+    font-size: 16px; /* chữ nhỏ hơn 1 chút */
+  }
+
+  .all-box-product {
+    gap: 20px; /* khoảng cách nhỏ lại */
+  }
+  .hero-wrap h1.bread {
+    font-size: 24px; /* Thu nhỏ font chữ */
+    line-height: 1.2; /* Tăng khoảng cách dòng nếu cần */
+  }
+}
+
